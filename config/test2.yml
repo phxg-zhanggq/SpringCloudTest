@@ -1,0 +1,12 @@
+spring:
+  application:
+     name: test
+server:
+  port: 9999
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+    service-url:
+      #defaultZone: http://node1:8100/eureka/
+      defaultZone: http://admin:admin123@node1:8100/eureka/
